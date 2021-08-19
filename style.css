@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: url("https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhciUyMGtleXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .btns{
+      margin-right: 10px !important;
+  }
+
+.h11{
+    margin-top: 50px;
+    align-items: center;
+   padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+/* ========================================CARS=================================== */
+
+:root {
+    --theme-primary: #07c;
+    --theme-accent: #febb02;
+    --theme-gray-normal: #707070;
+    --theme-gray-light: #e0e0e0;
+    --theme-white: #ffffff;
+  }
+  
+  body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .car-rental-card {
+      padding: 10px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid var(--theme-gray-light);
+    overflow: hidden;
+  }
+  
+  .car-rental-card .image-container img {
+    width: 100%;
+  }
+  
+  .car-rental-card .image-container:hover {
+    cursor: pointer;
+  }
+  
+  .car-rental-card .info-container {
+    padding: 1rem 1rem 1.2rem;
+  }
+  
+  .info-container .header {
+    text-decoration: none;
+    color: var(--theme-black);
+  }
+  
+  .info-container .title {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .info-container .subtitle {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--theme-gray-normal);
+  }
+  
+  .car-rental-card .extras {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+  
+  .extras .icon {
+    margin-top: 0.4rem;
+  }
+  
+  .extras .icon .icon-car {
+    fill: var(--theme-gray-normal);
+  }
+  
+  .extras .type {
+    font-size: 0.75rem;
+    margin-left: 0.6rem;
+  }
+  
+  .extras .muted {
+    color: var(--theme-gray-normal);
+  }
+  
+  .car-rental-card .link {
+    display: inline-block;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+    color: var(--theme-primary);
+    text-decoration: none;
+  }
+  #popUpWindow{
+    //background: lightblue; 
+  }
+  .car-rental-card .link:hover {
+    color: var(--theme-accent);
+  }
+
+  .abtn1{
+      width:100% !important ;
+  }
+
+  .cars
+  {
+      margin-top: 100px !important;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      flex: row;
+      flex-wrap: wrap;
+  }
+
+  /* ================================================= */
+
+.btn2{
+    height: 50px;
+    width: 470px;
+}
+.book{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w3-third{
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px !important; 
+}
+
+.btn3{
+    margin-right: 200px;
+}
+
+/* <===============================================> */
+
+.skin-light .login-form,
+.skin-light .logout-form {
+  max-width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skin-light .logout-form {
+  display: none;
+}
+.logina{
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    width: 500px !important;
+    height: 500px;
+}
